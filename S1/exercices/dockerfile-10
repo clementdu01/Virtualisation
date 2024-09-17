@@ -1,0 +1,2 @@
+FROM debian:latest
+VOLUME /my_volume

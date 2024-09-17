@@ -1,0 +1,2 @@
+FROM debian:latest
+SHELL ["/bin/bash", "-c"]

@@ -1,0 +1,5 @@
+FROM debian:latest
+ENTRYPOINT ["echo", "Hello from ENTRYPOINT"]
+
+FROM debian:latest
+RUN echo "Hello from RUN"

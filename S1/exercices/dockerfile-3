@@ -1,0 +1,5 @@
+FROM debian:latest
+ADD . /app
+COPY . /app
+WORKDIR /app
+CMD ["ls", "/app"]
